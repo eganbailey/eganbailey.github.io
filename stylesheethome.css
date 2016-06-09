@@ -1,0 +1,93 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.button {
+  background: src ""
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+#navcontainer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#navcontainer ul li {
+  display: inline;
+}
+
+.listTwo {
+  list-style-type: none;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.list2 {
+  list-style-type: none;
+  text-align: center;
+}
+
+.hoverImg {
+  opacity: 0.5;
+  margin-top: 0px;
+  box-shadow: 0px 0px 0px #000;
+  width: 500px;
+  height: 500px;
+  background: blue;
+}
+
+.round-button {
+  width: 304px;
+  height: 236px;
+  display: inline;
+}
+
+.round-button-circle {
+  width: 304px;
+  height: 236px;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  background-image: url('https://lh4.ggpht.com/8tP0aaEmrb4_Qr1n1futB9Xf2ibWBkw5jTcNic6uXOgxo_1qxhkJG7KccHRaN4cKr1c=w300');
+  border: 1px solid #cfdcec;
+  overflow: hidden;
+}
+
+.round-button-circle:hover {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5dehjQFh1efbS3aSDtsxX9DRl1TgKLsc22-jdawVAtvgplcReCe4kKw');
+}
+
+.round-button2 {
+  width: 304px;
+}
+
+.round-button-circle2 {
+  width: 304px;
+  height: 236px;
+  padding-bottom: 1%;
+  border-radius: 50%;
+  background-image: url('https://lh4.ggpht.com/8tP0aaEmrb4_Qr1n1futB9Xf2ibWBkw5jTcNic6uXOgxo_1qxhkJG7KccHRaN4cKr1c=w300');
+  border: 1px solid #cfdcec;
+  overflow: hidden;
+}
+
+.round-button-circle2:hover {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5dehjQFh1efbS3aSDtsxX9DRl1TgKLsc22-jdawVAtvgplcReCe4kKw');
+}
+img.green:hover{
+  border-color: #66afe9;
+  box-shadow: 0 0 20px rgba(0,255,0, 0.6);
+}

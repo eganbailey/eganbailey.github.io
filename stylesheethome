@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+  text-align: center;
+}
+
+#navcontainer ul li { display: inline; }
+
+.listTwo {
+  list-style-type: none;
+  text-align: center;
+}
+.list {
+  list-style-type: none;
+  text-align: center;
+}
+.list2 {
+  list-style-type: none;
+  text-align: center;
+}
+.imageButton(@imageName, @startColor: @white, @midColor: @white, @colorStop: 25%, @endColor: darken(@white, 10%)) {
+    background-color: mix(@midColor, @endColor, 80%);
+    background-image: url(@imageName);
+    background-image: url(@imageName), -moz-linear-gradient(top, @startColor, @midColor @colorStop, @endColor);
+    background-image: url(@imageName), -ms-linear-gradient(@startColor, @midColor @colorStop, @endColor);
+    background-image: url(@imageName), -webkit-linear-gradient(@startColor, @midColor @colorStop, @endColor);
+    background-image: url(@imageName), -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: url(@imageName), -o-linear-gradient(@startColor, @midColor @colorStop, @endColor);
+    background-image: url(@imageName), linear-gradient(@startColor, @midColor @colorStop, @endColor);
+    background-repeat: no-repeat;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",@startColor,@endColor)); // IE9 and down, gets no color-stop at all for proper fallback
+}
