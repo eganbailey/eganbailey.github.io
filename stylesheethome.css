@@ -79,13 +79,13 @@ h3 {
   height: 236px;
   padding-bottom: 1%;
   border-radius: 50%;
-  background-image: url('andrew.jpg');
+  background-image: url('Images/andrew.jpg');
   border: 1px solid #cfdcec;
   overflow: hidden;
 }
 
 .round-button-circle2:hover {
-  background-image: url('jordan.jpg');
+  background-image: url('Images/jordan.jpg');
 }
 img.green{
   circle
