@@ -61,13 +61,13 @@ h3 {
   height: 236px;
   padding-bottom: 100%;
   border-radius: 50%;
-  background-image: url('https://lh4.ggpht.com/8tP0aaEmrb4_Qr1n1futB9Xf2ibWBkw5jTcNic6uXOgxo_1qxhkJG7KccHRaN4cKr1c=w300');
+  background-image: url('IMG_35782.JPG');
   border: 1px solid #cfdcec;
   overflow: hidden;
 }
 
 .round-button-circle:hover {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5dehjQFh1efbS3aSDtsxX9DRl1TgKLsc22-jdawVAtvgplcReCe4kKw');
+  background-image: url('IMG_35822.JPG');
 }
 
 .round-button2 {
@@ -79,13 +79,16 @@ h3 {
   height: 236px;
   padding-bottom: 1%;
   border-radius: 50%;
-  background-image: url('https://lh4.ggpht.com/8tP0aaEmrb4_Qr1n1futB9Xf2ibWBkw5jTcNic6uXOgxo_1qxhkJG7KccHRaN4cKr1c=w300');
+  background-image: url('andrew.jpg');
   border: 1px solid #cfdcec;
   overflow: hidden;
 }
 
 .round-button-circle2:hover {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5dehjQFh1efbS3aSDtsxX9DRl1TgKLsc22-jdawVAtvgplcReCe4kKw');
+  background-image: url('jordan.jpg');
+}
+img.green{
+  circle
 }
 img.green:hover{
   border-color: #66afe9;
